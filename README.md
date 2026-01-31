@@ -86,12 +86,14 @@ Autocomplete/
 - рекомендуется использовать нижний регистр.
 
 Пример содержимого файла:
+```
 apple
 application
 apply
 banana
 bank
 basket
+```
 
 ---
 
