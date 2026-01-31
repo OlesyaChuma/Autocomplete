@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "Dictionary.h"
+#include "Validation.h"
 
 int main()
 {
@@ -23,6 +24,12 @@ int main()
 
         if (input == "exit")
             break;
+
+        if (!Validation::isValidPrefix(input))
+        {
+            std::cout << "Ошибка ввода. Используйте только буквы.\n";
+            continue;
+        }
 
         auto suggestions = dictionary.getSuggestions(input);
 

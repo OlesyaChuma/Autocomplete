@@ -32,6 +32,3 @@ Makefile
 # ===== OS files =====
 .DS_Store
 Thumbs.db
-
-# ===== Dictionary runtime file =====
-dictionary.txt
