@@ -41,7 +41,7 @@
 ---
 
 ## Структура проекта
-'''
+```
 Autocomplete/
 │
 ├── .gitignore
@@ -61,7 +61,7 @@ Autocomplete/
 │
 ├── Validation.h
 ├── Validation.cpp
-'''
+```
 
 ---
 
